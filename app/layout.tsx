@@ -1,0 +1,1 @@
+import './globals.css';export const metadata={title:'PackIQ Express | PulseIQ',description:'Packaging research pilot'};export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body><header><strong>◈ PulseIQ / PackIQ Express</strong><nav><a href="/">Home</a> · <a href="/admin">Researcher</a></nav></header><main>{children}</main></body></html>}

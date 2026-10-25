@@ -1,0 +1,1 @@
+import Results from './ui';export default function Page({params}:{params:{slug:string}}){return <Results slug={params.slug}/>}

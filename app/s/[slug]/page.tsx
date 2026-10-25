@@ -1,0 +1,1 @@
+import Survey from './ui';export default function Page({params}:{params:{slug:string}}){return <Survey slug={params.slug}/>}
